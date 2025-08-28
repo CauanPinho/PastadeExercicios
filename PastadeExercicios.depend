@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1756335797 source:c:\users\user\downloads\estruturarepetição\pastadeexercicios\exercicio01.c
+	<stdio.h>
+
+1756336192 source:c:\users\user\downloads\estruturarepetição\pastadeexercicios\main.c
+	<stdio.h>
+	<string.h>
+
+1756338437 source:c:\users\user\downloads\estruturarepetição\pastadeexercicios\desafionahora.c
+	<stdio.h>
+
