@@ -7,7 +7,7 @@ int main() {
     float n1,n2,n3,n4,mda,mdt,aa,ar=0;
     int i=0;
 
-    while (i<5) {
+    while (i<50) {
         printf("Diite sua nota do primeiro bimesetre");
         scanf("%f",&n1);
           printf("Diite sua nota do segundo bimesetre");
@@ -25,13 +25,13 @@ int main() {
 
         }
         else{
-            printf("vc foi reprovado");
+            printf("vc foi reprovado \n ");
             ar=ar+1;
         }
     }
-printf("a media da turma é %f",mdt);
-printf("o numero de aprovados é %f",aa);
-printf("o numero de reprovados é %f",ar);
+printf("a media da turma é %f\n",mdt/50);
+printf("o numero de aprovados é %f\n",aa);
+printf("o numero de reprovados é %f\n",ar);
 return 0;
 }
 
