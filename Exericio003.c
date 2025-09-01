@@ -1,18 +1,18 @@
 
 #include <stdio.h>
 #include <string.h>
-/*salário reajustado ou uma mensagem caso o funcionário não tenha direito ao aumento.
-3) Faça um programa que verifique a validade de uma senha fornecida pelo usuário. A senha é
-um conjunto de caracteres que são: 'ASDFG'. O programa deve imprimir mensagem de
-permissão ou negação de acesso.*/
+/*salï¿½rio reajustado ou uma mensagem caso o funcionï¿½rio nï¿½o tenha direito ao aumento.
+3) Faï¿½a um programa que verifique a validade de uma senha fornecida pelo usuï¿½rio. A senha ï¿½
+um conjunto de caracteres que sï¿½o: 'ASDFG'. O programa deve imprimir mensagem de
+permissï¿½o ou negaï¿½ï¿½o de acesso.*/
 
 int main() {
-    //declaração
+    //declaraÃ§Ã£o
     char senha[20];
     //entrada de dados
     printf("Entre com a senha");
     scanf("%s", senha);
-    //processamento saída
+    //processamento saï¿½da
     if(strcmp(senha,"ASDFG") == 0) {
         printf("Acesso permitido");
 
