@@ -1,0 +1,1 @@
+//toda vez que tiverem que manipular vetores de tamanhos diferentes, quem manda é o menor vetor 
